@@ -1,6 +1,6 @@
 ---
 name: bt7274-speaker
-description: Voice a reminder through the local speakers in BT-7274's voice (Titanfall 2), synthesized locally with Piper TTS and spoken in English. Trigger when the user explicitly asks to be called or reminded out loud ("用扬声器提醒我", "语音提醒我", "用 BT 的声音提醒我", "叫我"), including phrasings like "干完 XX 就叫我" / "到时候叫我" — any explicit request to be called out loud, whether immediate, after finishing a task, or scheduled. Do NOT use for silent or text-only notifications.
+description: Voice a reminder through the local speakers in BT-7274's voice (Titanfall 2), synthesized locally with Piper TTS and spoken in English. Trigger when the user explicitly asks to be called or reminded out loud ("remind me with the speaker", "voice reminder", "remind me in BT's voice", "call me"), including phrasings like "call me when X is done" / "call me when it's time" — any explicit request to be called out loud, whether immediate, after finishing a task, or scheduled. Do NOT use for silent or text-only notifications.
 ---
 
 # BT-7274 Speaker Reminder
@@ -33,7 +33,7 @@ Piper and plays through the speakers, blocking until playback finishes:
 ```
 
 The script prints the generated wav path (`/tmp/bt7274-reminder-<ts>.wav`) so
-a later "再放一遍 / play it again" can be answered with `afplay <wav>` — no
+a later "play it again" request can be answered with `afplay <wav>` — no
 re-synthesis needed.
 
 ## Composing the line

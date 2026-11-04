@@ -1,5 +1,3 @@
-<p align="right"><a href="README.zh-CN.md">简体中文</a> | English</p>
-
 # bt7274-speaker
 
 An [agent skill](https://agentskills.io) that turns reminders into spoken
